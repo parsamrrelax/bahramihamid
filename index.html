@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="dark light" />
+    <title>Hamid Bahrami | Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+    <meta name="description" content="Portfolio of a cinema director: education, experience, films, awards, and a showcase of 'Baggage'." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="#home" class="brand"></a>
+        <nav class="site-nav" aria-label="Primary">
+          <a href="#about">About</a>
+          <a href="#education">Education</a>
+          <a href="#experience">Experience</a>
+          <a href="#film">Film</a>
+          <a href="#awards">Awards</a>
+        </nav>
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+          <span class="bar" aria-hidden="true"></span>
+          <span class="bar" aria-hidden="true"></span>
+          <span class="bar" aria-hidden="true"></span>
+        </button>
+        <button class="theme-toggle header-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle theme">
+          <span class="sun" aria-hidden="true">☀️</span>
+          <span class="moon" aria-hidden="true">🌙</span>
+        </button>
+      </div>
+    </header>
+
+    <nav class="mobile-nav" id="mobileMenu" aria-label="Mobile Primary">
+      <div class="container mobile-nav-inner">
+        <a href="#about" class="mobile-link">About</a>
+        <a href="#education" class="mobile-link">Education</a>
+        <a href="#experience" class="mobile-link">Experience</a>
+        <a href="#film" class="mobile-link">Film</a>
+        <a href="#awards" class="mobile-link">Awards</a>
+        <div class="mobile-actions">
+          <span class="mobile-actions-label muted">Appearance</span>
+          <button class="theme-toggle" id="themeToggleMobile" aria-label="Toggle dark mode" title="Toggle theme">
+            <span class="sun" aria-hidden="true">☀️</span>
+            <span class="moon" aria-hidden="true">🌙</span>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <section id="home" class="section hero">
+        <div class="container">
+          <div class="hero-content">
+            <h1 class="reveal-up">Hamid Bahrami</h1>
+            <p class="subtitle reveal-up" style="--delay: 100ms">Writer • Director</p>
+            <p class="muted reveal-up" style="--delay: 200ms">Crafting stories.</p>
+          </div>
+        </div>
+        <div class="hero-bg" aria-hidden="true"></div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container grid two-col">
+          <div class="section-head reveal-up">
+            <h2>About</h2>
+            <p class="muted">Origins and artistic statement</p>
+          </div>
+          <div class="content flow reveal-up" style="--delay: 100ms">
+            <p>I started loving cinema because of my father. He liked filming and had a Sony Handy Cam. He filmed our family, nature, and sometimes himself. I remember one time we were traveling and there was a big accident. My father took his camera and filmed the people and the accident. I was very young, but I found this film recently and it was amazing to me. I think I learned my love for cinema from him. A few years later, he passed away, and I grew up watching films. Then I decided to become a filmmaker.</p>
+            <p>During my university studies, I often went to my classmates’ shootings and had many interesting experiences. I also gained experience as an assistant director, script supervisor, and in editing. I was learning about shooting, and I found it very exciting. Most of the time, I wrote scripts. One day, I decided to make one of my scripts, which became my first real filmmaking experience, called “Baggage.” Before “Baggage”, I had made a few training and practice films.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="education" class="section">
+        <div class="container">
+          <div class="section-head reveal-up">
+            <h2>Education</h2>
+            <p class="muted">Formal training and foundation</p>
+          </div>
+          <div class="cards">
+            <article class="card reveal-up">
+              <h3>Iran University of Art, Iran — Tehran</h3>
+              <p class="muted">Bachelor of Fine Arts — Acting and Directing in Theatre</p>
+              <p class="meta">September 2020 — February 2026</p>
+            </article>
+            <article class="card reveal-up" style="--delay: 100ms">
+              <h3>Vali Asr Technical High School, Iran — Rasht</h3>
+              <p class="muted">Diploma in Graphic Design</p>
+              <p class="meta">September 2016 — July 2019</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="section">
+        <div class="container">
+          <div class="section-head reveal-up">
+            <h2>Experience</h2>
+            <p class="muted">Selected works and roles</p>
+          </div>
+          <ol class="timeline">
+            <li class="timeline-item reveal-up">
+              <div class="time">2021</div>
+              <div class="timeline-card">
+                <h3>“Baggage” — Short film</h3>
+                <p class="muted">Writer and Director</p>
+              </div>
+            </li>
+            <li class="timeline-item reveal-up" style="--delay: 100ms">
+              <div class="time">2022</div>
+              <div class="timeline-card">
+                <h3>“Vomiting on an open wound” — Short film</h3>
+                <p class="muted">Assistant Director</p>
+              </div>
+            </li>
+            <li class="timeline-item reveal-up" style="--delay: 150ms">
+              <div class="time">2022</div>
+              <div class="timeline-card">
+                <h3>“Businessman” — Short film</h3>
+                <p class="muted">Assistant Director</p>
+              </div>
+            </li>
+            <li class="timeline-item reveal-up" style="--delay: 200ms">
+              <div class="time">2023</div>
+              <div class="timeline-card">
+                <h3>“Dreamland” — Short script</h3>
+                <p class="muted">Writer</p>
+              </div>
+            </li>
+            <li class="timeline-item reveal-up" style="--delay: 250ms">
+              <div class="time">2024</div>
+              <div class="timeline-card">
+                <h3>“Overpass” — Short film</h3>
+                <p class="muted">Assistant Director</p>
+              </div>
+            </li>
+            <li class="timeline-item reveal-up" style="--delay: 300ms">
+              <div class="time">2024</div>
+              <div class="timeline-card">
+                <h3>“Pimple” — Short script</h3>
+                <p class="muted">Writer</p>
+              </div>
+            </li>
+            <li class="timeline-item reveal-up" style="--delay: 350ms">
+              <div class="time">2024</div>
+              <div class="timeline-card">
+                <h3>“Repair” — Short movie</h3>
+                <p class="muted">Assistant Director</p>
+              </div>
+            </li>
+            <li class="timeline-item reveal-up" style="--delay: 400ms">
+              <div class="time">2025</div>
+              <div class="timeline-card">
+                <h3>“Mana” — Short movie</h3>
+                <p class="muted">Script Supervisor</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section id="film" class="section">
+        <div class="container grid two-col">
+          <div class="section-head reveal-up">
+            <h2>Film — “Baggage”</h2>
+            <p class="muted">First real filmmaking experience</p>
+          </div>
+          <div class="video-wrap reveal-up" style="--delay: 120ms">
+            <!-- TODO: Replace VIDEO_ID_HERE with your actual YouTube video ID -->
+            <div class="responsive-iframe">
+              <iframe
+                src="https://www.youtube.com/embed/VIDEO_ID_HERE"
+                title="Baggage — Short Film"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="awards" class="section">
+        <div class="container">
+          <div class="section-head reveal-up">
+            <h2>Honors and Awards</h2>
+            <p class="muted">Selections, nominations, and wins</p>
+          </div>
+          <ul class="awards-list">
+            <li class="reveal-up">
+              <img class="award-icon" src="./assets/CaFoscariShortFilmFestival.webp" alt="Ca’ Foscari Short Film Festival" />
+              <span>14th Ca’ Foscari Short Film Festival — Winner: Best Soundtrack — “Baggage”</span>
+            </li>
+            <li class="reveal-up" style="--delay: 60ms">
+              <img class="award-icon" src="./assets/Olhar Film Festival.webp" alt="Olhar Film Festival" />
+              <span>Olhar Film Festival — Winner: Best International Film — “Baggage”</span>
+            </li>
+            <li class="reveal-up" style="--delay: 120ms">
+              <img class="award-icon" src="./assets/Grossmann Fantastic Film and Wine Festival 2023.webp" alt="Grossmann Fantastic Film and Wine Festival 2023" />
+              <span>Grossmann Fantastic Film and Wine Festival 2023 — Competition Section — “Baggage”</span>
+            </li>
+            <li class="reveal-up" style="--delay: 180ms">
+              <img class="award-icon" src="./assets/Kerala.webp" alt="International Documentary and Short Film Festival of Kerala 2023" />
+              <span>15th International Documentary and Short Film Festival of Kerala 2023 (Oscar Qualifying) — Official Screening — “Baggage”</span>
+            </li>
+            <li class="reveal-up" style="--delay: 240ms">
+              <img class="award-icon" src="./assets/Festival Boca do Inferno.webp" alt="Festival Boca do Inferno" />
+              <span>Festival Boca do Inferno 2024 — Competition Section — “Baggage”</span>
+            </li>
+            <li class="reveal-up" style="--delay: 300ms">
+              <img class="award-icon" src="./assets/Nahal International Short Film Festival.webp" alt="Nahal International Short Film Festival" />
+              <span>Nahal International Short Film Festival — Competition Section; Nominated in 5 categories: Best Sound, Best Editing, Best Visual Effects, Best Music, Best Costume Design — “Baggage”</span>
+            </li>
+            <li class="reveal-up" style="--delay: 360ms">
+              <img class="award-icon" src="./assets/International Police Award Arts Festival.webp" alt="International Police Award Arts Festival" />
+              <span>27th International Police Award Arts Festival — Official Selection — “Baggage”</span>
+            </li>
+            <li class="reveal-up" style="--delay: 420ms">
+              <img class="award-icon" src="./assets/Kautik International Film Festival.webp" alt="Kautik International Film Festival" />
+              <span>8th Kautik International Film Festival — Official Selection</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p class="muted">© <span id="year"></span> Cinema Director. All rights reserved.</p>
+        <a class="back-to-top" href="#home">Back to top ↑</a>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+  </html>
+
+
