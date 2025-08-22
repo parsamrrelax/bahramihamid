@@ -109,11 +109,14 @@ body {
 }
 
 .brand {
+  font-family: "Segoe Script", "Brush Script MT", cursive;
+  font-size: 0.95rem;
+  font-style: italic;
   font-weight: 700;
-  background: linear-gradient(90deg, var(--brand), var(--brand-2));
+  background: none;
   -webkit-background-clip: text;
   background-clip: text;
-  color: transparent;
+  color: var(--muted);
   text-decoration: none;
 }
 
