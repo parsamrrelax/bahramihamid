@@ -20,7 +20,7 @@
           <a href="#about">About</a>
           <a href="#education">Education</a>
           <a href="#experience">Experience</a>
-          <a href="#film">Film</a>
+          <a href="/baggage">Film</a>
           <a href="#awards">Awards</a>
         </nav>
         <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
@@ -40,7 +40,7 @@
         <a href="#about" class="mobile-link">About</a>
         <a href="#education" class="mobile-link">Education</a>
         <a href="#experience" class="mobile-link">Experience</a>
-        <a href="#film" class="mobile-link">Film</a>
+        <a href="/baggage" class="mobile-link">Film</a>
         <a href="#awards" class="mobile-link">Awards</a>
         <div class="mobile-actions">
           <span class="mobile-actions-label muted">Appearance</span>
@@ -56,7 +56,16 @@
       <section id="home" class="section hero">
         <div class="container">
           <div class="hero-content">
-            <h1 class="reveal-up">Hamid Bahrami</h1>
+            <div class="hero-header reveal-up">
+              <img
+                src="./assets/hamidbahrami.jpg"
+                alt="Portrait of Hamid Bahrami"
+                class="hero-avatar"
+                loading="eager"
+                decoding="async"
+              />
+              <h1>Hamid Bahrami</h1>
+            </div>
             <p class="subtitle reveal-up" style="--delay: 100ms">Writer • Director</p>
             <p class="muted reveal-up" style="--delay: 200ms">Crafting stories.</p>
           </div>
@@ -172,16 +181,20 @@
             <p class="muted">First real filmmaking experience</p>
           </div>
           <div class="video-wrap reveal-up" style="--delay: 120ms">
-            <!-- TODO: Replace VIDEO_ID_HERE with your actual YouTube video ID -->
             <div class="responsive-iframe">
               <iframe
-                src="https://www.youtube.com/embed/VIDEO_ID_HERE"
+                src="https://www.youtube.com/embed/azhHrAUN1Z8"
                 title="Baggage — Short Film"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen
               ></iframe>
             </div>
+          </div>
+          <div class="video-actions reveal-up" style="--delay: 180ms">
+            <a class="cta-button" href="/baggage" aria-label="Open Baggage page">
+              Learn more about “Baggage” →
+            </a>
           </div>
         </div>
       </section>
