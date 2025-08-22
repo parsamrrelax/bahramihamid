@@ -15,12 +15,12 @@
   <body>
     <header class="site-header">
       <div class="container header-inner">
-        <a href="/" class="brand"></a>
+        <a href="/" class="brand">Hamid Bahrami</a>
         <nav class="site-nav" aria-label="Primary">
           <a href="/#about">About</a>
           <a href="/#education">Education</a>
           <a href="/#experience">Experience</a>
-          <a href="/#film">Film</a>
+          <a href="/baggage">Film</a>
           <a href="/#awards">Awards</a>
         </nav>
         <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
@@ -40,7 +40,7 @@
         <a href="/#about" class="mobile-link">About</a>
         <a href="/#education" class="mobile-link">Education</a>
         <a href="/#experience" class="mobile-link">Experience</a>
-        <a href="/#film" class="mobile-link">Film</a>
+        <a href="/baggage" class="mobile-link">Film</a>
         <a href="/#awards" class="mobile-link">Awards</a>
         <div class="mobile-actions">
           <span class="mobile-actions-label muted">Appearance</span>
@@ -93,6 +93,39 @@
           </div>
         </div>
       </section>
+
+      <section id="bts" class="section">
+        <div class="container">
+          <div class="section-head reveal-up">
+            <h2>Behind the Scenes</h2>
+            <p class="muted">Stills from production</p>
+          </div>
+          <ul class="gallery">
+            <li class="reveal-up"><img src="/assets/bts1.JPG" alt="Behind the scenes 1" loading="lazy" decoding="async"></li>
+            <li class="reveal-up" style="--delay: 20ms"><img src="/assets/bts2.JPG" alt="Behind the scenes 2" loading="lazy" decoding="async"></li>
+            <li class="reveal-up" style="--delay: 40ms"><img src="/assets/bts3.JPG" alt="Behind the scenes 3" loading="lazy" decoding="async"></li>
+            <li class="reveal-up" style="--delay: 60ms"><img src="/assets/bts4.JPG" alt="Behind the scenes 4" loading="lazy" decoding="async"></li>
+            <li class="reveal-up" style="--delay: 80ms"><img src="/assets/bts5.JPG" alt="Behind the scenes 5" loading="lazy" decoding="async"></li>
+            <li class="reveal-up" style="--delay: 100ms"><img src="/assets/bts6.JPG" alt="Behind the scenes 6" loading="lazy" decoding="async"></li>
+            <li class="reveal-up" style="--delay: 120ms"><img src="/assets/bts7.JPG" alt="Behind the scenes 7" loading="lazy" decoding="async"></li>
+            <li class="reveal-up" style="--delay: 140ms"><img src="/assets/bts8.JPG" alt="Behind the scenes 8" loading="lazy" decoding="async"></li>
+            <li class="reveal-up" style="--delay: 160ms"><img src="/assets/bts9.JPG" alt="Behind the scenes 9" loading="lazy" decoding="async"></li>
+            <li class="reveal-up" style="--delay: 180ms"><img src="/assets/bts10.JPG" alt="Behind the scenes 10" loading="lazy" decoding="async"></li>
+            <li class="reveal-up" style="--delay: 200ms"><img src="/assets/bts11.JPG" alt="Behind the scenes 11" loading="lazy" decoding="async"></li>
+            <li class="reveal-up" style="--delay: 220ms"><img src="/assets/bts12.JPG" alt="Behind the scenes 12" loading="lazy" decoding="async"></li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Lightbox overlay for BTS images -->
+      <div class="lightbox-overlay" id="lightbox" aria-hidden="true">
+        <div class="lightbox-inner">
+          <button class="lightbox-close" id="lightboxClose" aria-label="Close viewer">✕</button>
+          <button class="lightbox-prev" id="lightboxPrev" aria-label="Previous image">‹</button>
+          <img class="lightbox-img" id="lightboxImg" alt="Behind the scenes large view" />
+          <button class="lightbox-next" id="lightboxNext" aria-label="Next image">›</button>
+        </div>
+      </div>
 
       <section id="credits" class="section">
         <div class="container">
