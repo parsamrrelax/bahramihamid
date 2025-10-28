@@ -11,7 +11,7 @@
 }
 
 .mobile-nav.open {
-  max-height: 280px;
+  max-height: 80vh;
   border-bottom-width: 1px;
 }
 
